@@ -12,6 +12,10 @@ if (window.AOS) {
   AOS.init({
     duration: 1000,
     offset: 100,
+    once: false,         // animations occur every time
+    mirror: true,        // elements animate out as you scroll past them
+    easing: 'ease-out',
+    delay: 100          // slight delay for more noticeable effect
   });
 }
 
