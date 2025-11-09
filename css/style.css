@@ -266,7 +266,8 @@ a {
 .about-us {
   display: flex;
   min-height: 720px;
-  overflow: hidden;
+  /* Removed overflow: hidden to allow animations to work */
+  position: relative;
 }
 .about-us__image {
   flex: 1;
