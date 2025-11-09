@@ -289,10 +289,10 @@ a {
 }
 .about-us__image-sushi3 {
   border-bottom: 8px solid var(--color-creamson);
-  background-image: url("../../assets/about_bg1.png");
+  background-image: url("../assets/about_bg1.png");
 }
 .about-us__image-sushi2 {
-  background-image: url("../../assets/about_bg2.png");
+  background-image: url("../assets/about_bg2.png");
 }
 .about-us__image-sushi3 img {
   width: 225px;
@@ -386,7 +386,7 @@ a {
   flex-direction: column;
 
   background-color: var(--primary-color);
-  background-image: url("../../assets/popular_bg.png");
+  background-image: url("../assets/popular_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
